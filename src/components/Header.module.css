@@ -1,0 +1,59 @@
+.headerContainer {
+  padding: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 9.4rem;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+
+  gap: 1.2rem;
+}
+
+.navList a {
+  font-size: 1.6rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 1000px;
+  transition: all 0.3s;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.navList a:hover {
+  background-color: #c92a2a;
+  color: #fff;
+}
+
+.mobileIcon {
+  height: 2.4rem;
+  width: 2.4rem;
+  cursor: pointer;
+}
+
+.mobileNavBtn {
+  display: none;
+}
+
+@media (max-width: 39em) {
+  .mobileNavBtn {
+    display: block;
+  }
+  .nav {
+    display: none;
+  }
+}

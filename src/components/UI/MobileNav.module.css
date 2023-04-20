@@ -1,0 +1,79 @@
+.navContainerMobile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 15;
+}
+
+.navListMobile {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.navListMobile a {
+  font-size: 2.4rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 1000px;
+  transition: all 0.3s;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.navListMobile a:hover {
+  background-color: #c92a2a;
+  color: #fff;
+}
+
+.icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  cursor: pointer;
+}
+
+.enterActive {
+  animation: showNav 0.3s ease-out forwards;
+}
+.exitActive {
+  animation: hideNav 0.3s ease-out forwards;
+}
+
+@keyframes showNav {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+@keyframes hideNav {
+  0% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(80%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}

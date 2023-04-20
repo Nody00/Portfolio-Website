@@ -1,0 +1,112 @@
+.titleText {
+  text-align: center;
+  margin-bottom: 6.4rem;
+}
+.aboutContainer {
+  margin-bottom: 9.4rem;
+}
+
+.smallTitleText {
+  font-size: 1.8rem;
+}
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.4rem;
+}
+
+.knowTextBox,
+.skillsBox {
+  padding: 1.2rem;
+}
+
+.aboutTitle {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+
+.knowTextBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.4rem;
+}
+
+.aboutParagraph {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #777;
+}
+
+.aboutParagraph strong {
+  color: #c92a2a;
+}
+
+.aboutButton {
+  padding: 1.2rem 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 1000px;
+  cursor: pointer;
+  background-color: #dbdbdb;
+  transition: all 0.3s ease-in;
+  /* margin-bottom: 30rem; */
+  text-decoration: none;
+  color: #000;
+}
+
+.aboutButton:hover {
+  background-color: #c92a2a;
+  color: #fff;
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.skill {
+  font-size: 1.4rem;
+  padding: 1.2rem 2.4rem;
+  background-color: rgba(153, 153, 153, 0.2);
+  border-radius: 4px;
+  font-weight: 600;
+  color: #666;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.skillRed:hover {
+  background-color: #c92a2a;
+  color: #fff;
+}
+
+.skillBlue:hover {
+  color: #fff;
+  background-color: #1c7ed6;
+}
+
+.skillWhite:hover {
+  color: #000;
+  background-color: #fff;
+}
+.skillGreen:hover {
+  color: #fff;
+  background-color: #116149;
+}
+
+.skillYellow:hover {
+  color: #fff;
+  background-color: #fcc419;
+}
+
+@media (max-width: 39em) {
+  .aboutGrid {
+    grid-template-columns: 1fr;
+  }
+}

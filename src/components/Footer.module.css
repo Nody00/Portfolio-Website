@@ -1,0 +1,36 @@
+.footerContainer {
+  background-color: #000;
+  color: #fff;
+}
+
+.footerTop {
+  padding: 8rem 0;
+}
+
+.name {
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.myText {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.iconLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+.icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.footerBottom {
+  padding-bottom: 4rem;
+}
+
+.footerBottom p {
+  font-size: 1.4rem;
+}
