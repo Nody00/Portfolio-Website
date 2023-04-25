@@ -43,7 +43,23 @@ const Projects = () => {
               <a href="https://inquisitive-moxie-c60a06.netlify.app/">Live</a>
             </div>
           </div>
+
           {/* ITEM 3 */}
+          <div className={styles.imageContainer}>
+            <img src="/GmailDone.jpg" alt="" className={styles.image} />
+          </div>
+          <div className={styles.textBox}>
+            <p className={styles.title}>Gmail Clone</p>
+            <p className={styles.description}>
+              Gmail clone made with Reactjs and React Router,a copy of the gmail
+              user UI and UX,with firebase integration.
+            </p>
+            <div className={styles.buttonContainer}>
+              <a href="https://github.com/Nody00/gmailClone">Github</a>
+              <a href="https://shiny-lily-b48a3d.netlify.app/">Live</a>
+            </div>
+          </div>
+          {/* ITEM 4 */}
 
           <div className={styles.imageContainer}>
             <img src="/BankingDone.jpg" alt="" className={styles.image} />
