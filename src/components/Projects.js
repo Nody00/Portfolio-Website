@@ -51,8 +51,9 @@ const Projects = () => {
           <div className={styles.textBox}>
             <p className={styles.title}>Gmail Clone</p>
             <p className={styles.description}>
-              Gmail clone made with Reactjs and React Router,a copy of the gmail
-              user UI and UX,with firebase integration.
+              Gmail clone made with Reactjs and React Router,a recreation of the
+              gmail UI and UX,with Firebase integration.Firebase Realtime
+              database used for email storage.
             </p>
             <div className={styles.buttonContainer}>
               <a href="https://github.com/Nody00/gmailClone">Github</a>
