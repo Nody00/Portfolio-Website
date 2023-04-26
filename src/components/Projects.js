@@ -27,6 +27,23 @@ const Projects = () => {
             </div>
           </div>
 
+          {/* ITEM 3 */}
+          <div className={styles.imageContainer}>
+            <img src="/GmailDone.jpg" alt="" className={styles.image} />
+          </div>
+          <div className={styles.textBox}>
+            <p className={styles.title}>Gmail Clone</p>
+            <p className={styles.description}>
+              Gmail clone made with Reactjs and React Router,a recreation of the
+              gmail UI and UX,with Firebase integration.Firebase Realtime
+              database used for email storage.
+            </p>
+            <div className={styles.buttonContainer}>
+              <a href="https://github.com/Nody00/gmailClone">Github</a>
+              <a href="https://shiny-lily-b48a3d.netlify.app/">Live</a>
+            </div>
+          </div>
+
           {/* ITEM 2 */}
           <div className={styles.imageContainer}>
             <img src="/OffroadingDone.jpg" alt="" className={styles.image} />
@@ -44,22 +61,6 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* ITEM 3 */}
-          <div className={styles.imageContainer}>
-            <img src="/GmailDone.jpg" alt="" className={styles.image} />
-          </div>
-          <div className={styles.textBox}>
-            <p className={styles.title}>Gmail Clone</p>
-            <p className={styles.description}>
-              Gmail clone made with Reactjs and React Router,a recreation of the
-              gmail UI and UX,with Firebase integration.Firebase Realtime
-              database used for email storage.
-            </p>
-            <div className={styles.buttonContainer}>
-              <a href="https://github.com/Nody00/gmailClone">Github</a>
-              <a href="https://shiny-lily-b48a3d.netlify.app/">Live</a>
-            </div>
-          </div>
           {/* ITEM 4 */}
 
           <div className={styles.imageContainer}>
