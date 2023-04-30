@@ -19,7 +19,9 @@ const Projects = () => {
             <p className={styles.description}>
               Fully fledged ecommerce fullstack app,made using
               React,Nextjs,MongoDB. I wrote my own custom APIs which allow
-              communication with the MongoDB database.
+              communication with the MongoDB database. Authentication and route
+              protection is implemented using NextAuth,allowing for custom
+              credentials or Google account authentication.
             </p>
             <div className={styles.buttonContainer}>
               <a href="https://github.com/Nody00/SkateStore">Github</a>
