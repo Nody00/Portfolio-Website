@@ -10,12 +10,40 @@ const Projects = () => {
         </div>
 
         <div className={styles.grid}>
+          {/* ITEM 5 */}
+          <div className={styles.imageContainer}>
+            <img
+              src="/AutoStoreDoneFinal.jpg"
+              alt=""
+              className={styles.image}
+            />
+          </div>
+          <div className={styles.textBox}>
+            <p className={styles.title}>AutoStore Ecommerce(MERN STACK)</p>
+            <p className={styles.description}>
+              A fullstack website made for a ecommerce business.Made using the
+              MERN stack,on the frontend made with ReactJS, the backend API was
+              developed with NodeJS, Express.The frontend and backend are firmly
+              separated,authentication was implemented using JWT(json web
+              tokens).The frontend is hosted on Netlify while the backend API
+              resides on Renders servers.
+            </p>
+            <div className={styles.buttonContainer}>
+              <a href="https://github.com/Nody00/AutoParts-React-Frontend">
+                Frontend Github
+              </a>
+              <a href="https://github.com/Nody00/AutoParts-NodeJS-Backend">
+                Backend Github
+              </a>
+              <a href="https://capable-donut-e0ac54.netlify.app/">Live</a>
+            </div>
+          </div>
           {/* ITEM 1 */}
           <div className={styles.imageContainer}>
             <img src="/SkateStoreDone.jpg" alt="" className={styles.image} />
           </div>
           <div className={styles.textBox}>
-            <p className={styles.title}>Skateboard Ecommerce app</p>
+            <p className={styles.title}>Skateboard Ecommerce App</p>
             <p className={styles.description}>
               Fully fledged ecommerce fullstack app,made using
               React,Nextjs,MongoDB. I wrote my own custom APIs which allow

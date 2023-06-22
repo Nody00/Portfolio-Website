@@ -56,11 +56,17 @@ const About = () => {
               <div className={`${styles.skill} ${styles.skillWhite}`}>
                 NEXTJS
               </div>
+              <div className={`${styles.skill} ${styles.skillWhite}`}>
+                EXPRESS
+              </div>
               <div className={`${styles.skill} ${styles.skillBlue}`}>
                 OAUTH2
               </div>
               <div className={`${styles.skill} ${styles.skillGreen}`}>
                 MONGODB
+              </div>
+              <div className={`${styles.skill} ${styles.skillGreen}`}>
+                NODEJS
               </div>
               <div className={`${styles.skill} ${styles.skillRed}`}>GIT</div>
               <div className={`${styles.skill} ${styles.skillBlue}`}>
