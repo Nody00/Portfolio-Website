@@ -1,4 +1,5 @@
 import styles from "./Projects.module.css";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -10,7 +11,6 @@ const Projects = () => {
         </div>
 
         <div className={styles.grid}>
-          {/* ITEM 5 */}
           <div className={styles.imageContainer}>
             <img
               src="/AutoStoreDoneFinal.jpg"
@@ -18,6 +18,35 @@ const Projects = () => {
               className={styles.image}
             />
           </div>
+
+          <div className={styles.textBox}>
+            <p className={styles.title}>Blog (MERN STACK with Typescript)</p>
+            <p className={styles.description}>
+              Fullstack app built with React on the frontend and Node on the
+              backend. I made extensive use of typescript on both fronts of the
+              app. This app was mostly a way for me to learn how to work with
+              typescript and how to make a small scale social media app. The
+              frontend talks to a set of API end points which do everything from
+              creating a new user,authenticating existing users and
+              writing,deleting,updateing the database,for which I used MongoDB.
+            </p>
+            <div className={styles.buttonContainer}>
+              <a href="https://github.com/Nody00/Blog-TypeScriptReact-Frontend">
+                Frontend Github
+              </a>
+              <a href="https://github.com/Nody00/Blog-TypescriptNode-Backend">
+                Backend Github
+              </a>
+              <a href="https://blog-type-script-react-frontend.vercel.app/">
+                Live
+              </a>
+            </div>
+          </div>
+          {/* ITEM 5 */}
+          <div className={styles.imageContainer}>
+            <img src="/BlogDone.jpg" alt="" className={styles.image} />
+          </div>
+
           <div className={styles.textBox}>
             <p className={styles.title}>AutoStore Ecommerce(MERN STACK)</p>
             <p className={styles.description}>
@@ -38,6 +67,7 @@ const Projects = () => {
               <a href="https://capable-donut-e0ac54.netlify.app/">Live</a>
             </div>
           </div>
+
           {/* ITEM 1 */}
           <div className={styles.imageContainer}>
             <img src="/SkateStoreDone.jpg" alt="" className={styles.image} />
