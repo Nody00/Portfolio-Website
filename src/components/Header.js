@@ -2,7 +2,7 @@ import styles from "./Header.module.css";
 import { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import MobileNav from "./UI/MobileNav";
-import Link from "next/link";
+
 const Header = () => {
   const [showMobileNav, setShowMobileNav] = useState(false);
 
@@ -20,18 +20,18 @@ const Header = () => {
 
       <nav className={styles.nav}>
         <ul className={styles.navList}>
-          <Link href="/">
+          <a href="/">
             <li>Home</li>
-          </Link>
-          <Link href="/#about">
+          </a>
+          <a href="#about">
             <li>About</li>
-          </Link>
-          <Link href="/#projects">
+          </a>
+          <a href="#projects">
             <li>Projects</li>
-          </Link>
-          <Link href="/#contact">
+          </a>
+          <a href="#contact">
             <li>Contact</li>
-          </Link>
+          </a>
         </ul>
       </nav>
 

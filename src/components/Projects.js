@@ -12,11 +12,7 @@ const Projects = () => {
 
         <div className={styles.grid}>
           <div className={styles.imageContainer}>
-            <img
-              src="/AutoStoreDoneFinal.jpg"
-              alt=""
-              className={styles.image}
-            />
+            <img src="/BlogDone.jpg" alt="" className={styles.image} />
           </div>
 
           <div className={styles.textBox}>
@@ -44,7 +40,11 @@ const Projects = () => {
           </div>
           {/* ITEM 5 */}
           <div className={styles.imageContainer}>
-            <img src="/BlogDone.jpg" alt="" className={styles.image} />
+            <img
+              src="/AutoStoreDoneFinal.jpg"
+              alt=""
+              className={styles.image}
+            />
           </div>
 
           <div className={styles.textBox}>
